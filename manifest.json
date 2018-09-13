@@ -1,0 +1,12 @@
+{
+  "name": "paas-do-not-merge",
+  "version": "1.0",
+  "description": "A simple chrome extension to prevent you from accidentally merging GitHub pull requests without signing your commits",
+  "content_scripts": [
+   {
+     "matches": ["https://github.com/alphagov/paas-cf/pull/*", "https://github.com/alphagov/paas-bootstrap/pull/*"],
+     "css": ["disable-merge-button.css"]
+   }
+  ],
+  "manifest_version": 2
+}
