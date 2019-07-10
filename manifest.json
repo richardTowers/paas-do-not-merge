@@ -1,6 +1,6 @@
 {
   "name": "paas-do-not-merge",
-  "version": "1.0",
+  "version": "1.1",
   "description": "A simple chrome extension to prevent you from accidentally merging GitHub pull requests without signing your commits",
   "content_scripts": [
    {
