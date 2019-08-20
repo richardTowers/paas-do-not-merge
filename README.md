@@ -1,8 +1,8 @@
 paas-do-not-merge
 =================
 
-A chrome extenstion which disables the merge button in [alphagov/paas-cf] and
-[alphagov/paas-bootstrap] with CSS:
+A chrome extenstion which disables the merge button in [alphagov/paas-cf],
+[alphagov/paas-bootstrap] and [alphagov/paas-admin] with CSS and JS:
 
 > ![](images/screenshot.png)
 
@@ -23,3 +23,4 @@ Installation
 
 [alphagov/paas-cf]: https://github.com/alphagov/paas-cf
 [alphagov/paas-bootstrap]: https://github.com/alphagov/paas-bootstrap
+[alphagov/paas-admin]: https://github.com/alphagov/paas-admin
