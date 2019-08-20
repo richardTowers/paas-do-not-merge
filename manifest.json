@@ -5,11 +5,10 @@
   "content_scripts": [
    {
      "matches": [
-       "https://github.com/alphagov/paas-cf/pull/*",
-       "https://github.com/alphagov/paas-bootstrap/pull/*",
-       "https://github.com/alphagov/paas-admin/pull/*"
+       "https://github.com/*"
      ],
-     "css": ["disable-merge-button.css"]
+     "css": ["disable-merge-button.css"],
+     "js": ["disable-merge-button.js"]
    }
   ],
   "manifest_version": 2

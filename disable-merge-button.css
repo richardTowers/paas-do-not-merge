@@ -1,4 +1,4 @@
-.BtnGroup .BtnGroup-item {
+.disable-merge-button .BtnGroup .BtnGroup-item {
   pointer-events: none;
   color: rgba(36,41,46,0.4);
   background-color: #eff3f6;
@@ -9,7 +9,7 @@
   background-position: 0 0;
 }
 
-.alt-merge-options:before {
+.disable-merge-button .alt-merge-options:before {
   content: "Merges in this repo need to be signed";
   color: #cb2431;
   display: block;
